@@ -1,90 +1,303 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
-  LOW:
-  - ↹
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - $$mdi:backspace-outline$$
-  - BT CLR
+  default:
+  - Media
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - ''
+  - Gui+X
+  - {t: A, h: LEFT META}
+  - {t: R, h: LEFT ALT}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: LEFT ALT}
+  - {t: O, h: RIGHT META}
+  - Ctl+G
+  - '&key_repeat'
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - '&key_repeat'
+  - LEFT SHIFT
+  - {t: ␣, h: Mouse}
+  - {t: ↹, h: Fun}
+  - {t: ⏎, h: Num}
+  - {t: BACKSPACE, h: Nav}
+  - {t: ⌦, h: Sym}
+  Media:
+  - {type: held}
+  - Esc
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Caps Word
+  - EP TOG
+  - PREVIOUS
+  - Vol Down
+  - Vol Up
+  - FAST FORWARD
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AC COPY
+  - AC CUT
+  - AC PASTE
+  - AC UNDO
+  - AC REDO
+  - OUT TOG
   - BT 1
   - BT 2
   - BT 3
   - BT 4
-  - BT 5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - STOP
+  - PLAY PAUSE
+  - MUTE
+  Nav:
+  - {t: ▽, type: trans}
+  - Page Up
+  - Home
+  - ↑
+  - End
+  - Insert
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Esc
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Page Down
   - ←
   - ↓
-  - ↑
   - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Caps Lock
+  - Caps Word
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - AC COPY
+  - AC CUT
+  - AC PASTE
+  - AC UNDO
+  - AC REDO
+  - AC REDO
+  - AC UNDO
+  - AC PASTE
+  - AC CUT
+  - AC COPY
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ␣
-  - ⏎
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
-  RAI:
-  - ↹
-  - '!'
-  - '@'
-  - '#'
+  Mouse:
+  - {t: ▽, type: trans}
+  - Esc
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Caps Word
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AC COPY
+  - AC CUT
+  - AC PASTE
+  - AC UNDO
+  - AC REDO
+  - AC REDO
+  - AC UNDO
+  - AC PASTE
+  - AC CUT
+  - AC COPY
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  Sym:
+  - {t: ▽, type: trans}
+  - '{'
+  - AMPERSAND
+  - '*'
+  - (
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Esc
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ':'
   - $
   - '%'
   - ^
-  - AMPS
-  - KP MULTIPLY
+  - KP PLUS
+  - Caps Word
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - AC REDO
+  - AC UNDO
+  - AC PASTE
+  - AC CUT
+  - AC COPY
+  - {t: ▽, type: trans}
   - (
   - )
-  - $$mdi:backspace-outline$$
-  - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - '`'
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
-  - ␣
-  - ⏎
-  - {t: '&studio_unlock', type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  Num:
+  - {t: ▽, type: trans}
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Esc
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - Caps Word
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - AC REDO
+  - AC UNDO
+  - AC PASTE
+  - AC CUT
+  - AC COPY
+  - {t: ▽, type: trans}
+  - .
+  - '0'
+  - '-'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Fun:
+  - {t: ▽, type: trans}
+  - Esc
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Print Scrn
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Caps Word
+  - SCROLLLOCK
+  - F5
+  - F6
+  - F7
+  - F8
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AC COPY
+  - AC CUT
+  - AC PASTE
+  - AC UNDO
+  - AC REDO
+  - Pause Break
+  - F1
+  - F2
+  - F3
+  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
+  - MENU
