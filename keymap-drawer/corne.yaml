@@ -69,11 +69,11 @@ layers:
   - FAST FORWARD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AC COPY
-  - AC CUT
-  - AC PASTE
-  - AC UNDO
-  - AC REDO
+  - COPY
+  - CUT
+  - PASTE
+  - UNDO
+  - REDO
   - OUT TOG
   - BT 1
   - BT 2
