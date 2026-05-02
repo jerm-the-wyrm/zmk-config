@@ -13,7 +13,7 @@ layers:
   - Y
   - ''''
   - ''
-  - Gui+X
+  - Alt+X
   - {t: A, h: LEFT META}
   - {t: R, h: LEFT ALT}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
