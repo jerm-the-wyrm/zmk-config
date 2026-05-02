@@ -112,16 +112,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AC COPY
-  - AC CUT
-  - AC PASTE
-  - AC UNDO
-  - AC REDO
-  - AC REDO
-  - AC UNDO
-  - AC PASTE
-  - AC CUT
-  - AC COPY
+  - COPY
+  - CUT
+  - PASTE
+  - UNDO
+  - REDO
+  - REDO
+  - UNDO
+  - PASTE
+  - CUT
+  - COPY
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,16 +155,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AC COPY
-  - AC CUT
-  - AC PASTE
-  - AC UNDO
-  - AC REDO
-  - AC REDO
-  - AC UNDO
-  - AC PASTE
-  - AC CUT
-  - AC COPY
+  - COPY
+  - CUT
+  - PASTE
+  - UNDO
+  - REDO
+  - REDO
+  - UNDO
+  - PASTE
+  - CUT
+  - COPY
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -203,11 +203,11 @@ layers:
   - '@'
   - '#'
   - '|'
-  - AC REDO
-  - AC UNDO
-  - AC PASTE
-  - AC CUT
-  - AC COPY
+  - REDO
+  - UNDO
+  - PASTE
+  - CUT
+  - COPY
   - {t: ▽, type: trans}
   - (
   - )
@@ -246,11 +246,11 @@ layers:
   - '2'
   - '3'
   - \
-  - AC REDO
-  - AC UNDO
-  - AC PASTE
-  - AC CUT
-  - AC COPY
+  - REDO
+  - UNDO
+  - PASTE
+  - CUT
+  - COPY
   - {t: ▽, type: trans}
   - .
   - '0'
@@ -284,11 +284,11 @@ layers:
   - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AC COPY
-  - AC CUT
-  - AC PASTE
-  - AC UNDO
-  - AC REDO
+  - COPY
+  - CUT
+  - PASTE
+  - UNDO
+  - REDO
   - Pause Break
   - F1
   - F2
